@@ -1,0 +1,49 @@
+{
+	"name": "get-fbid",
+	"version": "1.0.0",
+	"description": "Get the FBID for a Facebook Group, Page or Profile.",
+	"license": "MIT",
+	"repository": "chrisvogt/get-fbid",
+	"author": {
+		"name": "Chris Vogt",
+		"email": "mail@chrisvogt.me",
+		"url": "https://www.chrisvogt.me"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "nyc ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"FBID",
+		"Facebook ID",
+		"Facebook",
+		"Facebook Page",
+		"Facebook Profile",
+		"Facebook Group",
+		"get fbid"
+	],
+	"dependencies": {
+		"got": "^9.2.2"
+	},
+	"devDependencies": {
+		"ava": "^0.25.0",
+		"codecov": "^3.0.0",
+		"nyc": "^13.1.0",
+		"proxyquire": "^2.1.0",
+		"xo": "^0.23.0"
+	},
+	"nyc": {
+		"reporter": [
+			"lcov",
+			"text"
+		]
+	},
+	"xo": {
+		"space": true
+	}
+}
